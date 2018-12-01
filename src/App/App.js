@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
 import { Layout, Input, Button } from 'antd';
-import SearchResults from './SearchResults';
+import SearchResults from '../Search/SearchResults';
 
 const { Header, Footer, Content } = Layout;
 const { Search } = Input;

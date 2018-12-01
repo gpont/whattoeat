@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Card, Icon } from 'antd';
-import DB from './fixtures.js';
-
-const { Meta } = Card;
+import DB from '../fixtures/fixtures.js';
+import FoodCard from './FoodCard';
 
 class SearchResults extends Component {
 	constructor(props) {
@@ -28,30 +26,11 @@ class SearchResults extends Component {
 
 	renderCard(item) {
 		return (
-			<Card
-				className='food-card'
-				style={{ width: 300, 'padding-bottom': 50 }}
-				cover={<img alt={item.title} src={item.img} />}
-				actions={[<Icon type="like" />, <Icon type="message" />, <Icon type="share-alt" />]}
-			>
-				<Meta
-					className='food-avatar'
-					// avatar={<Avatar src="https://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Hamburgers_7-2.jpg" />}
-					title={item.title}
-					description={item.description}
-				/>
-				<div className="order-wrap">
-					<Button
-						// shape={'circle'}
-						className='order-button'
-					>
-						Хочу
-					</Button>
-					<p className="price">
-						{item.price}₽
-					</p>
-				</div>
-			</Card>
+			<FoodCard
+				title={item.title}
+				img={item.img}
+				description={item.description}
+			/>
 		);
 	}
 
