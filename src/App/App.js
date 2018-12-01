@@ -16,13 +16,25 @@ class App extends Component {
 		};
 
 		this.onSearch = this.onSearch.bind(this);
+		this.suggestFood = this.suggestFood.bind(this);
 	}
 
-	onSearch(searchString) {
-		this.setState({ searchString });
+	onSearch(searchEvent) {
+		console.log(this.state.searchString);
+		this.setState({
+			searchString: searchEvent.target.value
+		});
+	}
+
+	suggestFood() {
+		console.log(this.state.searchString);
+		this.setState({
+			searchString: SearchResults.suggestFood()
+		});
 	}
 
   render() {
+		console.log(this.state.searchString);
     return (
 			<Layout>
 				<Header
@@ -34,13 +46,15 @@ class App extends Component {
 					className='layout-content'
 				>
 					<Search
-						placeholder={'Есть что поесть?'}
-						onSearch={this.onSearch}
+						placeholder={'Есть чо поесть?'}
+						defaultValue={this.state.searchString}
+						onChange={this.onSearch}
 					/>
 					{
 						this.state.searchString === '' ?
 							<Button
 								shape={'circle'}
+								onClick={this.suggestFood}
 							>
 								ХЗ
 							</Button> :

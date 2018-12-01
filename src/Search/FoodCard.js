@@ -7,7 +7,7 @@ export default function FoodCard(props) {
 	return (
 		<Card
 			className='food-card'
-			style={{ width: 300, 'padding-bottom': 50 }}
+			style={{ width: 300, paddingBottom: 50 }}
 			cover={<img alt={props.title} src={props.img} />}
 			actions={[<Icon type="like" />, <Icon type="message" />, <Icon type="share-alt" />]}
 		>

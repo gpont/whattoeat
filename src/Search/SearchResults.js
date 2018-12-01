@@ -24,6 +24,10 @@ class SearchResults extends Component {
 		};
 	}
 
+	static suggestFood() {
+		return DB.data[Math.floor(Math.random() * DB.data.length)].title;
+	}
+
 	renderCard(item) {
 		return (
 			<FoodCard
@@ -37,7 +41,11 @@ class SearchResults extends Component {
 	render() {
 		return (
 			<div className='search-result'>
-				{this.state.items.map(item => this.renderCard(item))}
+				{this.state.items.map(item => (
+					<div key={item.title}>
+						{this.renderCard(item)}
+					</div>
+				))}
 				<span>Чо еще есть?</span>
 			</div>
 		);
