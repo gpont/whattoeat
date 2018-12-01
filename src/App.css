@@ -41,7 +41,22 @@ button.hz-button {
 }
 
 .search-result {
+  width: 80vw;
   display: flex;
+  justify-content: space-around;
+}
+
+.search-result > .food-card {
+  border-radius: 25px;
+}
+
+ul.ant-card-actions {
+  border: none;
+  background: none;
+}
+
+ul.ant-card-actions > li {
+  width: 25%;
 }
 
 .ant-card-actions > li {
@@ -68,9 +83,11 @@ p.price {
 button.order-button {
   width: 60%;
   border-radius: 25px;
+  background: #4bf288;
+  text-transform: uppercase;
 }
 
 .food-card .ant-card-cover img {
-  border-radius: 55px;
+  border-radius: 45px;
   padding: 25px;
 }
