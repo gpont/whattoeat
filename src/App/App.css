@@ -6,6 +6,14 @@
   background: transparent;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
+
+}
+
+.layout-header h1 {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  font-size: 48px;
 }
 
 .layout-content {
