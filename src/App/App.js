@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
 import { Layout, Input, Button } from 'antd';
-import SearchResults from './SearchResults';
+import SearchResults from '../Search/SearchResults';
 
 const { Header, Footer, Content } = Layout;
 const { Search } = Input;
@@ -16,13 +16,25 @@ class App extends Component {
 		};
 
 		this.onSearch = this.onSearch.bind(this);
+		this.suggestFood = this.suggestFood.bind(this);
 	}
 
-	onSearch(searchString) {
-		this.setState({ searchString });
+	onSearch(searchEvent) {
+		console.log(this.state.searchString);
+		this.setState({
+			searchString: searchEvent.target.value
+		});
+	}
+
+	suggestFood() {
+		console.log(this.state.searchString);
+		this.setState({
+			searchString: SearchResults.suggestFood()
+		});
 	}
 
   render() {
+		console.log(this.state.searchString);
     return (
 			<Layout>
 				<Header
@@ -53,22 +65,23 @@ class App extends Component {
                     </div>
 
 					<Search
-						placeholder={'Че будем есть?'}
-						onSearch={this.onSearch}
+						placeholder={'Чо будем есть?'}
+						defaultValue={this.state.searchString}
+						onChange={this.onSearch}
 					/>
 					{
 						this.state.searchString === '' ?
 							<Button
 								shape={'circle'}
                                 className={'hz-button'}
+								onClick={this.suggestFood}
 							>
 								ХЗ
 							</Button> :
-							<Button><SearchResults
+							<SearchResults
 								searchString={this.state.searchString}
 								className={'search-button'}
 							/>
-                            </Button>
 					}
                     </div>
 				</Content>

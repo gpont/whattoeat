@@ -64,16 +64,37 @@ button.preference-button {
 .search-result {
   width: 80vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
 }
 
 .search-result > .food-card {
+  width: 30%;
+  padding-bottom: 50px;
   border-radius: 25px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 920px) {
+  .search-result > .food-card {
+    width: 45%;
+  }
+}
+@media (max-width: 480px) {
+  .search-result {
+    width: 100vw;
+    justify-content: space-around;
+  }
+  .search-result > .food-card {
+    width: 90%;
+  }
 }
 
 ul.ant-card-actions {
   border: none;
   background: none;
+  padding: 0 30px;
 }
 
 ul.ant-card-actions > li {
@@ -88,7 +109,7 @@ ul.ant-card-actions > li {
 
 .order-wrap {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 0;
   width: 100%;
   display: flex;
