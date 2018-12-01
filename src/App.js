@@ -1,13 +1,27 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
-import { Layout, Input, Button, Card, Avatar, Icon } from 'antd';
-
-const { Meta } = Card;
+import { Layout, Input, Button } from 'antd';
+import SearchResults from './SearchResults';
 
 const { Header, Footer, Content } = Layout;
+const { Search } = Input;
 
 class App extends Component {
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			searchString: ''
+		};
+
+		this.onSearch = this.onSearch.bind(this);
+	}
+
+	onSearch(searchString) {
+		this.setState({ searchString });
+	}
+
   render() {
     return (
 			<Layout>
@@ -19,90 +33,21 @@ class App extends Component {
 				<Content
 					className='layout-content'
 				>
-					<Input
+					<Search
 						placeholder={'Есть что поесть?'}
+						onSearch={this.onSearch}
 					/>
-					<Button
-						shape={'circle'}
-                        className={'hz-button'}
-					>
-						ХЗ
-					</Button>
-					<div className="search-result">
-						<Card
-							className={'food-card'}
-							style={{ width: 300, 'padding-bottom': 50 }}
-							cover={<img alt="example" src="https://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Hamburgers_7-2.jpg" />}
-							actions={[<Icon type="like" />, <Icon type="message" />, <Icon type="share-alt" />]}
-						>
-							<Meta
-								className={'food-avatar'}
-								// avatar={<Avatar src="https://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Hamburgers_7-2.jpg" />}
-								title="Вкусный бургер"
-								description="Из макдака"
+					{
+						this.state.searchString === '' ?
+							<Button
+								shape={'circle'}
+							>
+								ХЗ
+							</Button> :
+							<SearchResults
+								searchString={this.state.searchString}
 							/>
-							<div className="order-wrap">
-								<Button
-									// shape={'circle'}
-									className={'order-button'}
-								>
-									Заказать
-								</Button>
-								<p className="price">
-									10 rub
-								</p>
-							</div>
-						</Card>
-						<Card
-							className={'food-card'}
-							style={{ width: 300, 'padding-bottom': 50 }}
-							cover={<img alt="example" src="https://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Hamburgers_7-2.jpg" />}
-							actions={[<Icon type="like" />, <Icon type="message" />, <Icon type="share-alt" />]}
-						>
-							<Meta
-								className={'food-avatar'}
-								// avatar={<Avatar src="https://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Hamburgers_7-2.jpg" />}
-								title="Вкусный бургер"
-								description="Из макдака"
-							/>
-							<div className="order-wrap">
-								<Button
-									// shape={'circle'}
-									className={'order-button'}
-								>
-									Заказать
-								</Button>
-								<p className="price">
-									10 rub
-								</p>
-							</div>
-						</Card>
-						<Card
-							className={'food-card'}
-							style={{ width: 300, 'padding-bottom': 50 }}
-							cover={<img alt="example" src="https://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Hamburgers_7-2.jpg" />}
-							actions={[<Icon type="like" />, <Icon type="message" />, <Icon type="share-alt" />]}
-						>
-							<Meta
-								className={'food-avatar'}
-								// avatar={<Avatar src="https://www.recipetineats.com/wp-content/uploads/2016/02/Beef-Hamburgers_7-2.jpg" />}
-								title="Вкусный бургер"
-								description="Из макдака"
-							/>
-							<div className="order-wrap">
-								<Button
-									// shape={'circle'}
-									className={'order-button'}
-								>
-									Заказать
-								</Button>
-								<p className="price">
-									10 rub
-								</p>
-							</div>
-						</Card>
-
-					</div>
+					}
 				</Content>
 				<Footer
 					className='layout-footer'
