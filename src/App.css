@@ -68,6 +68,10 @@ button.preference-button {
     background-color: white;
 }
 
+.search-button {
+
+}
+
 .search-result {
   width: 80vw;
   display: flex;
@@ -118,4 +122,8 @@ button.order-button {
 .food-card .ant-card-cover img {
   border-radius: 45px;
   padding: 25px;
+}
+
+i svg {
+    visibility: hidden;
 }

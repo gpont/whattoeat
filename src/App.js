@@ -66,9 +66,11 @@ class App extends Component {
 							>
 								ХЗ
 							</Button> :
-							<SearchResults
+							<Button><SearchResults
 								searchString={this.state.searchString}
+								className={'search-button'}
 							/>
+                            </Button>
 					}
                     </div>
 				</Content>

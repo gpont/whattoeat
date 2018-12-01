@@ -13,5 +13,47 @@ export default {
 		vendor: 'Денер Лаб',
 		price: 100,
 		likes: 0
-	}]
+	}, {
+        title: 'Шавуха',
+        description: 'Охуенная шавуха',
+        img: 'imgs/food2.img',
+        vendor: 'Денер Лаб',
+        price: 100,
+        likes: 0
+    }, {
+        title: 'Шавуха',
+        description: 'Охуенная шавуха',
+        img: 'imgs/food2.img',
+        vendor: 'Денер Лаб',
+        price: 100,
+        likes: 0
+    }, {
+        title: 'Шавуха',
+        description: 'Охуенная шавуха',
+        img: 'imgs/food2.img',
+        vendor: 'Денер Лаб',
+        price: 100,
+        likes: 0
+    }, {
+        title: 'Шавуха',
+        description: 'Охуенная шавуха',
+        img: 'imgs/food2.img',
+        vendor: 'Денер Лаб',
+        price: 100,
+        likes: 0
+    }, {
+        title: 'Шавуха',
+        description: 'Охуенная шавуха',
+        img: 'imgs/food2.img',
+        vendor: 'Денер Лаб',
+        price: 100,
+        likes: 0
+    }, {
+        title: 'Шавуха',
+        description: 'Охуенная шавуха',
+        img: 'imgs/food2.img',
+        vendor: 'Денер Лаб',
+        price: 100,
+        likes: 0
+    }]
 };
