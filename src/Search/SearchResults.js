@@ -42,7 +42,7 @@ class SearchResults extends Component {
 		return (
 			<div className='search-result'>
 				{this.state.items.map(item => (
-					<div key={item.title + String(Math.random())}>
+					<div key={item.title + String(Math.random())} className="card-wrapper">
 						{this.renderCard(item)}
 					</div>
 				))}
