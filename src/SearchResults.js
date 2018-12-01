@@ -5,25 +5,22 @@ class SearchResults extends Component {
 	constructor(props) {
 		super(props);
 
-		const selector = new RegExp(props.searchString);
-		this.state = {
-			searchString: props.searchString,
-			items: DB.data.filter((item) => item.description.match (selector) || item.title.match (selector))
-		};
+		this.state = SearchResults.search(props.searchString);
 	}
 
-	componentWillUpdate(nextProps, nextState, nextContext) {
-		if (nextProps.searchString !== this.state.searchString) {
-			this.search(nextProps.searchString);
-		}
+	static getDerivedStateFromProps(props, state) {
+		return props.searchString !== state.searchString ?
+			SearchResults.search(props.searchString) :
+			null;
 	}
 
-	search(searchString) {
-		const selector = new RegExp(searchString);
-		this.setState({
+	static search(searchString) {
+		const selectorRegExp = new RegExp(searchString);
+		const selector = (item) => item.description.match(selectorRegExp) || item.title.match(selectorRegExp);
+		return {
 			searchString,
-			items: DB.data.filter((item) => item.description.match (selector) || item.title.match (selector))
-		});
+			items: DB.data.filter(selector)
+		};
 	}
 
 	render() {
