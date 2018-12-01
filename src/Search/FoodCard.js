@@ -8,7 +8,7 @@ export default function FoodCard(props) {
 		<Card
 			className='food-card'
 			cover={<img alt={props.title} src={props.img} />}
-			actions={[<Icon type="like" />, <Icon type="message" />, <Icon type="share-alt" />]}
+			actions={[<div>{Math.floor(Math.random() * 100)}%  <Icon type="like" /></div>, <Icon type="message" />, <Icon type="share-alt" />]}
 		>
 			<Meta
 				className='food-avatar'
