@@ -3,6 +3,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 import { Layout, Input, Button } from 'antd';
 import SearchResults from '../Search/SearchResults';
+import ShopingCart from '../ShopingCart/ShopingCart';
 
 const { Header, Footer, Content } = Layout;
 const { Search } = Input;
@@ -17,6 +18,7 @@ class App extends Component {
 
 		this.onSearch = this.onSearch.bind(this);
 		this.suggestFood = this.suggestFood.bind(this);
+		this.openCart = this.openCart.bind(this);
 	}
 
 	onSearch(searchEvent) {
@@ -30,6 +32,12 @@ class App extends Component {
 		console.log(this.state.searchString);
 		this.setState({
 			searchString: SearchResults.suggestFood()
+		});
+	}
+
+	openCart() {
+		this.setState({
+
 		});
 	}
 
@@ -68,6 +76,7 @@ class App extends Component {
 				>
 					Footer
 				</Footer>
+				<ShopingCart/>
 			</Layout>
     );
   }
