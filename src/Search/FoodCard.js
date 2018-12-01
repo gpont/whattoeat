@@ -24,7 +24,7 @@ export default function FoodCard(props) {
 					Хочу
 				</Button>
 				<p className="price">
-					{props.price}₽
+					{props.price} ₽
 				</p>
 			</div>
 		</Card>

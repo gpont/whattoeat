@@ -34,6 +34,7 @@ class SearchResults extends Component {
 				title={item.title}
 				img={item.img}
 				description={item.description}
+				price={item.price}
 			/>
 		);
 	}

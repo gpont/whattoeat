@@ -21,53 +21,53 @@ export default {
 		price: 100,
 		likes: 0
 	}, {
+		title: 'Гамбургер',
+		description: 'Охуенный гамбургер',
+		img: 'imgs/burg.jpg',
+		vendor: 'Денер Лаб',
+		price: 100,
+		likes: 0
+	}, {
+		title: 'Гамбургер',
+		description: 'Охуенный гамбургер',
+		img: 'imgs/burg.jpg',
+		vendor: 'Денер Лаб',
+		price: 100,
+		likes: 0
+}, {
+		title: 'Гамбургер',
+		description: 'Охуенный гамбургер',
+		img: 'imgs/burg.jpg',
+		vendor: 'Денер Лаб',
+		price: 100,
+		likes: 0
+}, {
 		title: 'Шавуха',
 		description: 'Охуенная шавуха',
 		img: 'imgs/shav.jpg',
 		vendor: 'Денер Лаб',
 		price: 100,
 		likes: 0
-	}, {
-        title: 'Шавуха',
-        description: 'Охуенная шавуха',
-        img: 'imgs/food2.img',
-        vendor: 'Денер Лаб',
-        price: 100,
-        likes: 0
-    }, {
-        title: 'Шавуха',
-        description: 'Охуенная шавуха',
-        img: 'imgs/food2.img',
-        vendor: 'Денер Лаб',
-        price: 100,
-        likes: 0
-    }, {
-        title: 'Шавуха',
-        description: 'Охуенная шавуха',
-        img: 'imgs/food2.img',
-        vendor: 'Денер Лаб',
-        price: 100,
-        likes: 0
-    }, {
-        title: 'Шавуха',
-        description: 'Охуенная шавуха',
-        img: 'imgs/food2.img',
-        vendor: 'Денер Лаб',
-        price: 100,
-        likes: 0
-    }, {
-        title: 'Шавуха',
-        description: 'Охуенная шавуха',
-        img: 'imgs/food2.img',
-        vendor: 'Денер Лаб',
-        price: 100,
-        likes: 0
-    }, {
-        title: 'Шавуха',
-        description: 'Охуенная шавуха',
-        img: 'imgs/food2.img',
-        vendor: 'Денер Лаб',
-        price: 100,
-        likes: 0
-    }]
+}, {
+		title: 'Шавуха',
+		description: 'Охуенная шавуха',
+		img: 'imgs/shav.jpg',
+		vendor: 'Денер Лаб',
+		price: 100,
+		likes: 0
+}, {
+		title: 'Шавуха',
+		description: 'Охуенная шавуха',
+		img: 'imgs/shav.jpg',
+		vendor: 'Денер Лаб',
+		price: 100,
+		likes: 0
+}, {
+		title: 'Шавуха',
+		description: 'Охуенная шавуха',
+		img: 'imgs/shav.jpg',
+		vendor: 'Денер Лаб',
+		price: 100,
+		likes: 0
+}]
 };

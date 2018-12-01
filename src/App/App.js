@@ -47,7 +47,7 @@ class App extends Component {
 				<Header
 					className='layout-header'
 				>
-					Header
+					<h1>Есть ЧО поесть?</h1>
 				</Header>
 				<Content
 					className='layout-content'
