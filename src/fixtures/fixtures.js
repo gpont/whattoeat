@@ -1,29 +1,29 @@
 export default {
 	data: [{
 		title: 'Шашлык',
-		description: 'Охуенный шашлык',
-		img: 'imgs/food1.img',
+		description: 'Классный шашлык',
+		img: 'imgs/shash.jpg',
+		vendor: 'Денер Лаб',
+		price: 100,
+		likes: 0
+	}, {
+		title: 'Шавуха',
+		description: 'Классная шавуха',
+		img: 'imgs/shav.jpg',
+		vendor: 'Денер Лаб',
+		price: 100,
+		likes: 0
+	}, {
+		title: 'Шавуха',
+		description: 'Классная шавуха',
+		img: 'imgs/shav.jpg',
 		vendor: 'Денер Лаб',
 		price: 100,
 		likes: 0
 	}, {
 		title: 'Шавуха',
 		description: 'Охуенная шавуха',
-		img: 'imgs/food2.img',
-		vendor: 'Денер Лаб',
-		price: 100,
-		likes: 0
-	}, {
-		title: 'Шавуха',
-		description: 'Охуенная шавуха',
-		img: 'imgs/food2.img',
-		vendor: 'Денер Лаб',
-		price: 100,
-		likes: 0
-	}, {
-		title: 'Шавуха',
-		description: 'Охуенная шавуха',
-		img: 'imgs/food2.img',
+		img: 'imgs/shav.jpg',
 		vendor: 'Денер Лаб',
 		price: 100,
 		likes: 0

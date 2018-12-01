@@ -48,15 +48,21 @@ button.hz-button {
   padding-top: 50px;
 }
 
-.search-result > .food-card {
+.search-result > .card-wrapper {
   width: 30%;
   padding-bottom: 50px;
   border-radius: 25px;
   margin-bottom: 25px;
 }
 
+.search-result > .card-wrapper > .food-card {
+  position: relative;
+  padding-bottom: 55px;
+  border-radius: 30px;
+}
+
 @media (max-width: 920px) {
-  .search-result > .food-card {
+  .search-result > .card-wrapper {
     width: 45%;
   }
 }
@@ -65,7 +71,7 @@ button.hz-button {
     width: 100vw;
     justify-content: space-around;
   }
-  .search-result > .food-card {
+  .search-result > .card-wrapper {
     width: 90%;
   }
 }
@@ -111,4 +117,6 @@ button.order-button {
 .food-card .ant-card-cover img {
   border-radius: 45px;
   padding: 25px;
+  width: 270px;
+  height: 235px;
 }
