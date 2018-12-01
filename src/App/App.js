@@ -49,19 +49,19 @@ class App extends Component {
                     <div className={'preference-box'}>
                         <Button
                             className={'preference-button vegeterian'}
-                        ></Button>Вегетарианец
+                        >Вегетарианец</Button>
                         <Button
                             className={'preference-button muslim'}
-                        ></Button>Мусульманин
+                        >Мусульманин</Button>
                         <Button
                             className={'preference-button diabet'}
-                        ></Button>Диабетик
+                        >Диабетик</Button>
                         <Button
                             className={'preference-button gluten'}
-                        ></Button>Не ем глютен
+                        >Не ем глютен</Button>
                         <Button
                             className={'preference-button lactose'}
-                        ></Button>Не переношу лактозу
+                        >Не переношу лактозу</Button>
                     </div>
 
 					<Search
