@@ -43,11 +43,16 @@ button.hz-button {
 .search-result {
   width: 80vw;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
 }
 
 .search-result > .food-card {
+  width: 30%;
+  padding-bottom: 50px;
   border-radius: 25px;
+  margin-bottom: 25px;
 }
 
 ul.ant-card-actions {

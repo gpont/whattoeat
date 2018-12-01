@@ -30,7 +30,6 @@ class SearchResults extends Component {
 		return (
 			<Card
 				className='food-card'
-				style={{ width: 300, 'padding-bottom': 50 }}
 				cover={<img alt={item.title} src={item.img} />}
 				actions={[<Icon type="like" />, <Icon type="message" />, <Icon type="share-alt" />]}
 			>
