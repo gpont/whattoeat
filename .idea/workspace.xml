@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4fa90ad-1751-4170-8396-e9c30d2007fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/imgs/burg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/diab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/gluten.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/lact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/pig.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/shash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/shav.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/imgs/veg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/FoodCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Search/SearchResults.js" afterDir="false" />
+    <list default="true" id="a4fa90ad-1751-4170-8396-e9c30d2007fa" name="Default Changelist" comment="Добавил полупрозрачность кно">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchResults.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fixtures.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fixtures.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fixtures/fixtures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,14 +26,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="4" />
-          <entry key="js" value="5" />
+          <entry key="css" value="6" />
+          <entry key="js" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="JavaScript" value="5" />
+          <entry key="CSS" value="6" />
+          <entry key="JavaScript" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -62,16 +43,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="750" />
-          <entry key="js" value="670" />
-          <entry key="txt" value="502" />
+          <entry key="css" value="780" />
+          <entry key="js" value="676" />
+          <entry key="txt" value="547" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="750" />
-          <entry key="JavaScript" value="670" />
-          <entry key="PLAIN_TEXT" value="502" />
+          <entry key="CSS" value="780" />
+          <entry key="JavaScript" value="676" />
+          <entry key="PLAIN_TEXT" value="547" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -85,12 +66,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
+                <state relative-caret-position="141">
+                  <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/App/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="571">
+                  <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -108,14 +102,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+            <entry file="file://$PROJECT_DIR$/src/App/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                <state relative-caret-position="303">
+                  <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -138,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/fixtures.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/App/App.js" />
+        <option value="$PROJECT_DIR$/src/App/App.css" />
       </list>
     </option>
   </component>
@@ -179,6 +173,12 @@
               <item name="whattoeat" type="b2602c69:ProjectViewProjectNode" />
               <item name="whattoeat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="whattoeat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="whattoeat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +234,7 @@
       <updated>1543638233501</updated>
       <workItem from="1543638234921" duration="2329000" />
       <workItem from="1543641512187" duration="4286000" />
-      <workItem from="1543654327416" duration="3626000" />
+      <workItem from="1543654327416" duration="4061000" />
     </task>
     <task id="LOCAL-00001" summary="Увеличили размер шрифтов, сделали огромную блять ебанную кнопку">
       <created>1543642887952</created>
@@ -278,11 +278,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543659644349</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge branch 'shopping-card' of https://github.com/gpont/whattoeat into design&#10;&#10;# Conflicts:&#10;#&#9;src/App/App.js&#10;#&#9;src/fixtures/fixtures.js">
+      <created>1543659926617</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543659926617</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Починил кнопки">
+      <created>1543660288223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543660288223</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13202000" />
+    <option name="totallyTimeSpent" value="13637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -322,7 +336,9 @@
     <MESSAGE value="Merge branch 'search-logic' of https://github.com/gpont/whattoeat into design&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/App.css&#10;#&#9;src/App.js" />
     <MESSAGE value="Спрятал к хуям чертов поиск, все классно. И теперь там все одна большая кнопка, так не должно быть." />
     <MESSAGE value="Переделал кнопки предпочтений" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переделал кнопки предпочтений" />
+    <MESSAGE value="Merge branch 'shopping-card' of https://github.com/gpont/whattoeat into design&#10;&#10;# Conflicts:&#10;#&#9;src/App/App.js&#10;#&#9;src/fixtures/fixtures.js" />
+    <MESSAGE value="Починил кнопки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Починил кнопки" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/input/Input.d.ts" />
@@ -352,13 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -378,10 +387,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="141">
+          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
         </state>
       </provider>
     </entry>

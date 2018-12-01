@@ -50,11 +50,13 @@ div.preference-box {
     margin: 10px;
     width: 800px;
     text-align: left;
+    opacity: 0.5;
 }
 
 button.preference-button {
     display: inline-block;
     margin-right: 10px;
+    font-size: smaller;
 }
 
 .search-button {
