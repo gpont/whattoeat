@@ -82,6 +82,7 @@ button.preference-button {
 }
 
 .search-result > .card-wrapper {
+  min-width: 270px;
   width: 30%;
   padding-bottom: 50px;
   border-radius: 25px;
