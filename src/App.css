@@ -39,3 +39,20 @@ button.hz-button {
   height: 128px;
   margin-top: 48px;
 }
+
+button.preference-button {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.preference-button.vegan {
+    background-color: green;
+}
+
+.preference-button.muslim {
+    background-color: brown;
+}
+
+.preference-button.lactose {
+    background-color: white;
+}
