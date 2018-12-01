@@ -28,11 +28,6 @@ class App extends Component {
 				<Header
 					className='layout-header'
 				>
-                    <Button
-                        className={'menu-button'}
-                    >
-                        Меню
-                    </Button>
 					Header
 				</Header>
 				<Content
@@ -41,17 +36,20 @@ class App extends Component {
                     <div className={'search-box'}>
                     <div className={'preference-box'}>
                         <Button
-                            shape={'circle'}
-                            className={'preference-button vegan'}
-                        ></Button>
+                            className={'preference-button vegeterian'}
+                        ></Button>Вегетарианец
                         <Button
-                            shape={'circle'}
                             className={'preference-button muslim'}
-                        ></Button>
+                        ></Button>Мусульманин
                         <Button
-                            shape={'circle'}
+                            className={'preference-button diabet'}
+                        ></Button>Диабетик
+                        <Button
+                            className={'preference-button gluten'}
+                        ></Button>Не ем глютен
+                        <Button
                             className={'preference-button lactose'}
-                        ></Button>
+                        ></Button>Не переношу лактозу
                     </div>
 
 					<Search
