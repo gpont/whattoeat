@@ -3,7 +3,6 @@ import './App.css';
 import 'antd/dist/antd.css';
 import { Layout, Input, Button } from 'antd';
 import SearchResults from '../Search/SearchResults';
-import ShopingCart from '../ShopingCart/ShopingCart';
 
 const { Header, Footer, Content } = Layout;
 const { Search } = Input;
@@ -53,52 +52,50 @@ class App extends Component {
 				<Content
 					className='layout-content'
 				>
-                    <div className={'search-box'}>
-                    <div className={'preference-box'}>
-                        <Button
-                            className={'preference-button vegeterian'}
-                        >Вегетарианец</Button>
-                        <Button
-                            className={'preference-button muslim'}
-                        >Мусульманин</Button>
-                        <Button
-                            className={'preference-button diabet'}
-                        >Диабетик</Button>
-                        <Button
-                            className={'preference-button gluten'}
-                        >Не ем глютен</Button>
-                        <Button
-                            className={'preference-button lactose'}
-                        >Не переношу лактозу</Button>
-                    </div>
+					<div className={'search-box'}>
+						<div className={'preference-box'}>
+							<Button className={'preference-button vegeterian'}>
+								Вегетарианец
+							</Button>
+							<Button className={'preference-button muslim'}>
+								Мусульманин
+							</Button>
+							<Button className={'preference-button diabet'}>
+								Диабетик
+							</Button>
+							<Button className={'preference-button gluten'}>
+								Не ем глютен
+							</Button>
+							<Button className={'preference-button lactose'}>
+								Не переношу лактозу
+							</Button>
+						</div>
 
-					<Search
-						placeholder={'Чо будем есть?'}
-						defaultValue={this.state.searchString}
-						onChange={this.onSearch}
-					/>
-					{
-						this.state.searchString === '' ?
-							<Button
-								shape={'circle'}
-                                className={'hz-button'}
-								onClick={this.suggestFood}
-							>
-								ХЗ
-							</Button> :
-							<SearchResults
-								searchString={this.state.searchString}
-								className={'search-button'}
-							/>
-					}
-                    </div>
+						<Search
+							placeholder={'Чо будем есть?'}
+							defaultValue={this.state.searchString}
+							onChange={this.onSearch}
+						/>
+						{
+							this.state.searchString === '' ?
+								<Button
+									shape={'circle'}
+																	className={'hz-button'}
+									onClick={this.suggestFood}
+								>
+									ХЗ
+								</Button> :
+								<SearchResults
+									searchString={this.state.searchString}
+									className={'search-button'}
+								/>
+						}
+					</div>
 				</Content>
 				<Footer
 					className='layout-footer'
 				>
-					Footer
 				</Footer>
-				<ShopingCart/>
 			</Layout>
     );
   }

@@ -46,7 +46,6 @@ class SearchResults extends Component {
 						{this.renderCard(item)}
 					</div>
 				))}
-				<span>Чо еще есть?</span>
 			</div>
 		);
 	}
