@@ -38,7 +38,8 @@ class App extends Component {
 				<Content
 					className='layout-content'
 				>
-                    <div className={'preferences-box'}>
+                    <div className={'search-box'}>
+                    <div className={'preference-box'}>
                         <Button
                             shape={'circle'}
                             className={'preference-button vegan'}
@@ -52,9 +53,11 @@ class App extends Component {
                             className={'preference-button lactose'}
                         ></Button>
                     </div>
+
 					<Search
-						placeholder={'Есть что поесть?'}
+						placeholder={'Че будем есть?'}
 						onSearch={this.onSearch}
+                        autosize={false}
 					/>
 					{
 						this.state.searchString === '' ?
@@ -68,6 +71,7 @@ class App extends Component {
 								searchString={this.state.searchString}
 							/>
 					}
+                    </div>
 				</Content>
 				<Footer
 					className='layout-footer'

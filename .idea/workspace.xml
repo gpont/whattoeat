@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4fa90ad-1751-4170-8396-e9c30d2007fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SearchResults.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fixtures.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
@@ -43,14 +41,14 @@
         <counts>
           <entry key="css" value="568" />
           <entry key="js" value="519" />
-          <entry key="txt" value="84" />
+          <entry key="txt" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="568" />
           <entry key="JavaScript" value="519" />
-          <entry key="PLAIN_TEXT" value="84" />
+          <entry key="PLAIN_TEXT" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -83,7 +81,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="99">
+                <state relative-caret-position="17">
                   <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
                 </state>
               </provider>
@@ -209,11 +207,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543642887952</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge branches 'design' and 'search-logic' of https://github.com/gpont/whattoeat into design&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/App.js&#10;&#10;Починил размеры серча, добавил кнопки предпочтений, немного увеличил кнопку &quot;ХЗ&quot;. Есть еще кнопка Меню, но она делает ничего">
+      <created>1543653616393</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543653616395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8719000" />
+    <option name="totallyTimeSpent" value="9092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -247,8 +252,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Увеличили размер шрифтов, сделали огромную блять ебанную кнопку" />
-    <option name="LAST_COMMIT_MESSAGE" value="Увеличили размер шрифтов, сделали огромную блять ебанную кнопку" />
+    <MESSAGE value="Merge branches 'design' and 'search-logic' of https://github.com/gpont/whattoeat into design&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/App.js&#10;&#10;Починил размеры серча, добавил кнопки предпочтений, немного увеличил кнопку &quot;ХЗ&quot;. Есть еще кнопка Меню, но она делает ничего" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branches 'design' and 'search-logic' of https://github.com/gpont/whattoeat into design&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/App.js&#10;&#10;Починил размеры серча, добавил кнопки предпочтений, немного увеличил кнопку &quot;ХЗ&quot;. Есть еще кнопка Меню, но она делает ничего" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/antd/lib/input/Input.d.ts" />
@@ -274,7 +281,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
+        <state relative-caret-position="17">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
         </state>
       </provider>
