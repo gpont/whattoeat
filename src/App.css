@@ -67,3 +67,55 @@ button.preference-button {
 .preference-button.lactose {
     background-color: white;
 }
+
+.search-result {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-result > .food-card {
+  border-radius: 25px;
+}
+
+ul.ant-card-actions {
+  border: none;
+  background: none;
+}
+
+ul.ant-card-actions > li {
+  width: 25%;
+}
+
+.ant-card-actions > li {
+  width: 30%;
+  border: 1px solid #e8e8e8;
+  border-radius: 15px;
+}
+
+.order-wrap {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+p.price {
+  margin-top: inherit;
+  margin-bottom: inherit;
+}
+
+button.order-button {
+  width: 60%;
+  border-radius: 25px;
+  background: #4bf288;
+  text-transform: uppercase;
+}
+
+.food-card .ant-card-cover img {
+  border-radius: 45px;
+  padding: 25px;
+}

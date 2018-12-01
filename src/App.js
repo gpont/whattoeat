@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
-import { Layout, Input, Button, Menu } from 'antd';
+import { Layout, Input, Button } from 'antd';
 import SearchResults from './SearchResults';
 
 const { Header, Footer, Content } = Layout;
@@ -57,7 +57,6 @@ class App extends Component {
 					<Search
 						placeholder={'Че будем есть?'}
 						onSearch={this.onSearch}
-                        autosize={false}
 					/>
 					{
 						this.state.searchString === '' ?
