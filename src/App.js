@@ -22,6 +22,7 @@ class App extends Component {
 					/>
 					<Button
 						shape={'circle'}
+                        className={'hz-button'}
 					>
 						ХЗ
 					</Button>

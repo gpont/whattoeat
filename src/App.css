@@ -9,13 +9,16 @@
 }
 
 .layout-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
   min-height: 700px !important;
 }
 
 .layout-content input {
-  font-size: 20px;
-  margin-top: 10%;
+  font-size: 24px;
+  margin-top: 5%;
   max-width: 600px;
   padding: 20px 20px;
   text-align: center;
@@ -30,3 +33,9 @@
 
 }
 
+button.hz-button {
+  width: 128px;
+  font-size: 50px;
+  height: 128px;
+  margin-top: 48px;
+}
